@@ -37,18 +37,28 @@ console.log(codeBag)
 write a function that takes one number as an input and then builds the sum of all the number leading up to that number
 */
 
-const sumUp = (num) => {
-    let result = 0
-    for ( let i = result; i <= num; i++) {
-        result += i
-    }
+// const sumUp = (num) => {
+//     let result = 0
+//     for ( let i = 0; i <= num; i++) {
+//         result += i
+//     }
 
-    return result
-}
+//     return result
+// }
 
-let start = performance.now()
-sumUp(10)
-let end = performance.now()
-console.log(end - start)
+// let start = performance.now()
+// sumUp(10)
+// let end = performance.now()
+// console.log(end - start)
 
+// for better performance for this problem can be solved without looping
+
+// const sumUp = (n) => {
+//     return (n /2) * (n + 1)
+// }
+
+// let start = performance.now()
+// sumUp(10000)
+// let end = performance.now()
+// console.log(end - start)
 
